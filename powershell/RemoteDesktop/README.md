@@ -1,6 +1,6 @@
 # Remote Desktop
 
-A PowerShell tool to manage Remote Desktop Access on a remote or a local Windows Machines.
+A PowerShell tool to manage Remote Desktop Access on a remote or a local Windows Machine.
 
 # Introduction
 
