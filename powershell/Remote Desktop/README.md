@@ -7,7 +7,7 @@ A PowerShell tool to manage Remote Desktop Access on a remote or a local Windows
 In order to set a Remote Desktop Connection on Windows :
 * Remote Desktop must be enabled
 * You must have permission to connect, so you must be on the list of users allowed to connect.
-* And you must have network access to the remote machine (You may need to allow Remote Desktop connections through the firewall.)
+* You must have network access to the remote machine (You may need to allow Remote Desktop connections through the firewall.)
 
 The main purpose of this tool is to provide a quick way to check the first two conditions.
 This tool can also be used to check who can use Remote Desktop on your network as part of a security audit.
@@ -45,13 +45,13 @@ Get-RDPstatus -ComputerName HOSTNAME
 ### Enable Remote Desktop
 
 ```
-Enable-RDP
+Enable-RDP -ComputerName HOSTNAME
 ```
 
 ### Disable Remote Desktop
 
 ```
-Disable-RDP
+Disable-RDP -ComputerName HOSTNAME
 ```
 
 ### Get the list of users allowed to connect to a remote machine
