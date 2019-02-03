@@ -19,10 +19,13 @@ It will copy Procmon in a remote system and run it quietly using PsExec, then ge
 ## Parameters
 
 * -ComputerName HOSTNAME, Hostname or IP address of the remote machine.
-* -Duration TIMEINSECONDS, duration of data collet, default duration is 20 seconds.
-* -ProcmonPath PROCMONPATH, path To Procmon.exe on local machine, default path :  ```C:\Tools\ProcessMonitor\Procmon.exe```
-* -PsExecPath PSEXECPATH, path to PsExec.exe on your local machine, default path :  ```C:\Tools\PSTools\PsExec.exe ```
-* -SaveDataPath SAVEPATH, path to save the generated log file on your local machine, default path :  ```C:\Tools\ProcmonData```
+* -Duration TIMEINSECONDS, duration of data collect, default duration is 20 seconds.
+* -ProcmonPath PROCMONPATH, path To Procmon.exe on local machine.
+Default path :  ```C:\Tools\ProcessMonitor\Procmon.exe```
+* -PsExecPath PSEXECPATH, path to PsExec.exe on your local machine.
+Default path :  ```C:\Tools\PSTools\PsExec.exe ```
+* -SaveDataPath SAVEPATH, path to save the generated log file on your local machine.
+Default path :  ```C:\Tools\ProcmonData```
 
 # Contributions
 You are welcome to contribute and suggest any improvements. If you want to point to an issue, Please file an issue.
