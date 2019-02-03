@@ -67,7 +67,7 @@ Get-RDPUsers -ComputerName HOSTNAME
 This command adds USER to "Remote Desktop Users" local group on HOSTNAME.
 
 ```
-add-RDPUser -Computername HOSTNAME -UserName USER
+add-RDPUser -Computername HOSTNAME -UserName USER -DomainName DOMAIN
 ```
 
 ### Remove a user from "Remote Desktop Users" local group
@@ -75,5 +75,5 @@ add-RDPUser -Computername HOSTNAME -UserName USER
 This command removes USER from "Remote Desktop Users" local group on HOSTNAME.
 
 ```
-Remove-RDPUser -Computername HOSTNAME -UserName USER
+Remove-RDPUser -Computername HOSTNAME -UserName USER -DomainName DOMAIN
 ```
